@@ -50,6 +50,7 @@ import {
   Text,
   Flex,
   useToggle,
+  DialogHeader,
 } from '@looker/components'
 import { options1k } from './options1k'
 
@@ -531,5 +532,34 @@ export const OptionIcons = () => {
         placeholder="Select a mobile platform"
       />
     </Space>
+  )
+}
+
+export function FocusBug() {
+  const { value, setOn, setOff } = useToggle()
+  const [sv1, setSV1] = React.useState('A')
+  const [sv2, setSV2] = React.useState('C')
+  return (
+    <SpaceVertical p="large" align="start">
+      <Button onClick={setOn}>Open Modal</Button>
+      <Dialog isOpen={value} onClose={setOff}>
+        <DialogHeader>Two FieldSelects</DialogHeader>
+        <DialogContent>
+          <SpaceVertical>
+            <FieldSelect
+              value={sv1}
+              options={[{ value: 'A' }, { value: 'B' }]}
+              onChange={setSV1}
+            />
+            <FieldSelect
+              isFilterable
+              value={sv2}
+              options={[{ value: 'C' }, { value: 'D' }]}
+              onChange={setSV2}
+            />
+          </SpaceVertical>
+        </DialogContent>
+      </Dialog>
+    </SpaceVertical>
   )
 }

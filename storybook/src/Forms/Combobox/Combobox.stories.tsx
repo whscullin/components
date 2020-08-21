@@ -26,18 +26,21 @@
 
 import React, { FC, useState } from 'react'
 import {
+  Button,
   Combobox,
   ComboboxMulti,
   ComboboxMultiInput,
   ComboboxMultiList,
   ComboboxMultiOption,
   ComboboxOption,
+  Dialog,
   OptionIndicatorProps,
   ComboboxList,
   ComboboxInput,
   Heading,
   Space,
   SpaceVertical,
+  useToggle,
 } from '@looker/components'
 
 const CustomIndicator: FC<OptionIndicatorProps> = ({
@@ -49,42 +52,60 @@ const CustomIndicator: FC<OptionIndicatorProps> = ({
 
 export function ComboboxDemo() {
   const [option, setOption] = useState({ value: 'Bananas' })
+  const [option2, setOption2] = useState({ value: 'Bananas' })
   function handleChange(newOption: any) {
     setOption(newOption)
+  }
+  function handleChange2(newOption: any) {
+    setOption2(newOption)
   }
   const [options, setOptions] = useState([{ value: 'Bananas' }])
   function handleMultiChange(newOptions: any) {
     setOptions(newOptions)
   }
 
+  const { value, setOn, setOff } = useToggle()
+
   return (
     <Space p="large" align="start">
       <SpaceVertical>
-        <Heading>Controlled</Heading>
-        <Combobox width={300} value={option} onChange={handleChange}>
-          <ComboboxInput />
-          <ComboboxList>
-            <ComboboxOption value="Apples" />
-            <ComboboxOption value="Oranges" />
-            <ComboboxOption value="Grapes" />
-            <ComboboxOption value="Bananas" />
-            <ComboboxOption value="Pineapples" />
-          </ComboboxList>
-        </Combobox>
-        <ComboboxMulti
-          width={300}
-          values={options}
-          onChange={handleMultiChange}
-        >
-          <ComboboxMultiInput onClear={() => alert('CLEAR')} freeInput />
-          <ComboboxMultiList>
-            <ComboboxMultiOption value="Apples" />
-            <ComboboxMultiOption value="Oranges" />
-            <ComboboxMultiOption value="Grapes" />
-            <ComboboxMultiOption value="Bananas" />
-            <ComboboxMultiOption value="Pineapples" />
-          </ComboboxMultiList>
-        </ComboboxMulti>
+        <Button onClick={setOn}>Controlled</Button>
+        <Dialog isOpen={value} onClose={setOff}>
+          <Combobox width={300} value={option} onChange={handleChange}>
+            <ComboboxInput />
+            <ComboboxList>
+              <ComboboxOption value="Apples" />
+              <ComboboxOption value="Oranges" />
+              <ComboboxOption value="Grapes" />
+              <ComboboxOption value="Bananas" />
+              <ComboboxOption value="Pineapples" />
+            </ComboboxList>
+          </Combobox>
+          <Combobox width={300} value={option2} onChange={handleChange2}>
+            <ComboboxInput />
+            <ComboboxList>
+              <ComboboxOption value="Apples" />
+              <ComboboxOption value="Oranges" />
+              <ComboboxOption value="Grapes" />
+              <ComboboxOption value="Bananas" />
+              <ComboboxOption value="Pineapples" />
+            </ComboboxList>
+          </Combobox>
+          <ComboboxMulti
+            width={300}
+            values={options}
+            onChange={handleMultiChange}
+          >
+            <ComboboxMultiInput onClear={() => alert('CLEAR')} freeInput />
+            <ComboboxMultiList>
+              <ComboboxMultiOption value="Apples" />
+              <ComboboxMultiOption value="Oranges" />
+              <ComboboxMultiOption value="Grapes" />
+              <ComboboxMultiOption value="Bananas" />
+              <ComboboxMultiOption value="Pineapples" />
+            </ComboboxMultiList>
+          </ComboboxMulti>
+        </Dialog>
         <Heading>Uncontrolled</Heading>
         <Combobox width={300}>
           <ComboboxInput />

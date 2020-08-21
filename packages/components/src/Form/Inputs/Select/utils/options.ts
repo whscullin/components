@@ -24,6 +24,7 @@
 
  */
 
+import pick from 'lodash/pick'
 import { ComboboxOptionObject, getComboboxText } from '../../Combobox'
 import {
   SelectOptionGroupProps,
@@ -45,12 +46,12 @@ export function flattenOptions(options: SelectOptionProps[]) {
 }
 
 export function getOption(value?: string, options?: SelectOptionProps[]) {
-  const flattenedOptions = options && flattenOptions(options)
-  const label = getComboboxText(value, flattenedOptions)
-  // If this is a filterable Select and the current option has been filtered out
-  // leave label out, so that the matching against the option saved in ComboboxContext won't fail
-  const labelProps = label ? { label } : {}
-  return value !== undefined ? { ...labelProps, value } : undefined
+  const currentOption =
+    options && flattenOptions(options).find((option) => option.value === value)
+  const simpleOption = currentOption
+    ? pick(currentOption, ['label', 'value'])
+    : { value }
+  return value === undefined ? undefined : simpleOption
 }
 
 export function getOptions(
