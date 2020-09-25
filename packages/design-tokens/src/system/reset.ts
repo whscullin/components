@@ -34,10 +34,13 @@ export const reset = css<FontFamilyProps>`
     * UI Components from interfering with styles.
     **/
   ${({ theme: { reset } }) => reset && reset()}
+
   /**
    * Use fontFamily helper from styled-system if props.fontFamily value is specified.
-   * Otherwise fall back to theme.fonts.border-style
+   * Otherwise fall back to theme.fonts.body
    **/
   ${({ theme, ...props }) =>
     props.fontFamily ? fontFamily : `font-family: ${theme.fonts.body};`}
+
+  color: ${({ theme }) => theme.colors.text};
 `

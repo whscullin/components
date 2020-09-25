@@ -3,6 +3,7 @@
 exports[`Tooltip trigger: open on mouseover, close on mouseout 1`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   border-radius: 0.25rem;
   box-shadow: 0 3px 18px rgba(0,0,0,0.12),0 1px 4px rgba(0,0,0,0.04);
   background-color: #262D33;
@@ -15,6 +16,7 @@ exports[`Tooltip trigger: open on mouseover, close on mouseout 1`] = `
 
 .c1 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-size: 0.75rem;
   line-height: 1rem;
   text-align: center;

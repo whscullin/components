@@ -3,6 +3,7 @@
 exports[`Badge renders all intents 1`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 24px;
@@ -30,6 +31,7 @@ exports[`Badge renders all intents 1`] = `
 exports[`Badge renders all intents 2`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 24px;
@@ -57,6 +59,7 @@ exports[`Badge renders all intents 2`] = `
 exports[`Badge renders all intents 3`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 24px;
@@ -84,6 +87,7 @@ exports[`Badge renders all intents 3`] = `
 exports[`Badge renders all intents 4`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 24px;
@@ -111,6 +115,7 @@ exports[`Badge renders all intents 4`] = `
 exports[`Badge renders all intents 5`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 24px;
@@ -138,6 +143,7 @@ exports[`Badge renders all intents 5`] = `
 exports[`Badge renders all sizes 1`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 24px;
@@ -165,6 +171,7 @@ exports[`Badge renders all sizes 1`] = `
 exports[`Badge renders all sizes 2`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 0.6875rem;
   line-height: 16px;
@@ -192,6 +199,7 @@ exports[`Badge renders all sizes 2`] = `
 exports[`Badge renders all sizes 3`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 24px;
@@ -219,6 +227,7 @@ exports[`Badge renders all sizes 3`] = `
 exports[`Badge renders all sizes 4`] = `
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-weight: 600;
   font-size: 1rem;
   line-height: 32px;

@@ -3,15 +3,18 @@
 exports[`MenuGroup - JSX label 1`] = `
 .c4 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
 }
 
 .c5 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   list-style-type: none;
 }
 
 .c3 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.25rem;
@@ -34,6 +37,7 @@ exports[`MenuGroup - JSX label 1`] = `
 
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   padding: 0.5rem 0;
 }
 
@@ -55,6 +59,7 @@ exports[`MenuGroup - JSX label 1`] = `
 .c6 button,
 .c6 a {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -208,11 +213,13 @@ exports[`MenuGroup - JSX label 1`] = `
 exports[`MenuGroup - label 1`] = `
 .c4 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   list-style-type: none;
 }
 
 .c3 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.25rem;
@@ -235,6 +242,7 @@ exports[`MenuGroup - label 1`] = `
 
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   padding: 0.5rem 0;
 }
 
@@ -256,6 +264,7 @@ exports[`MenuGroup - label 1`] = `
 .c5 button,
 .c5 a {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -405,11 +414,13 @@ exports[`MenuGroup - label 1`] = `
 exports[`MenuGroup 1`] = `
 .c1 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   list-style-type: none;
 }
 
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   padding: 0.5rem 0;
 }
 
@@ -431,6 +442,7 @@ exports[`MenuGroup 1`] = `
 .c2 button,
 .c2 a {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;

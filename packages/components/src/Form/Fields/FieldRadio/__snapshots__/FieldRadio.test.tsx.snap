@@ -3,6 +3,7 @@
 exports[`A FieldRadio 1`] = `
 .c6 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   background-color: currentColor;
   border: solid 1px #DEE1E5;
   border-color: currentColor;
@@ -28,6 +29,7 @@ exports[`A FieldRadio 1`] = `
 
 .c4 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   height: 1rem;
   position: relative;
   width: 1rem;
@@ -71,6 +73,7 @@ exports[`A FieldRadio 1`] = `
 
 .c2 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   color: #343C42;
   font-size: 0.75rem;
   font-weight: 600;
@@ -163,6 +166,7 @@ exports[`A FieldRadio 1`] = `
 exports[`A FieldRadio checked 1`] = `
 .c6 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   background-color: currentColor;
   border: solid 1px #DEE1E5;
   border-color: currentColor;
@@ -188,6 +192,7 @@ exports[`A FieldRadio checked 1`] = `
 
 .c4 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   height: 1rem;
   position: relative;
   width: 1rem;
@@ -231,6 +236,7 @@ exports[`A FieldRadio checked 1`] = `
 
 .c2 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   color: #343C42;
   font-size: 0.75rem;
   font-weight: 600;

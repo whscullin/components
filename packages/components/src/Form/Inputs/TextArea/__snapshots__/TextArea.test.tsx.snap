@@ -17,6 +17,7 @@ exports[`TextArea default 1`] = `
 
 .c0 textarea {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   min-height: 6.25rem;
   background: #FFFFFF;
   border: 1px solid #DEE1E5;
@@ -66,6 +67,7 @@ exports[`TextArea resizes with prop resize = false 1`] = `
 
 .c0 textarea {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   min-height: 6.25rem;
   background: #FFFFFF;
   border: 1px solid #DEE1E5;
@@ -115,6 +117,7 @@ exports[`TextArea resizes with prop resize = none 1`] = `
 
 .c0 textarea {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   min-height: 6.25rem;
   background: #FFFFFF;
   border: 1px solid #DEE1E5;
@@ -164,6 +167,7 @@ exports[`TextArea resizes with prop resize = true 1`] = `
 
 .c0 textarea {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   min-height: 6.25rem;
   background: #FFFFFF;
   border: 1px solid #DEE1E5;
@@ -213,6 +217,7 @@ exports[`TextArea resizes with prop resize = vertical 1`] = `
 
 .c0 textarea {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   min-height: 6.25rem;
   background: #FFFFFF;
   border: 1px solid #DEE1E5;
@@ -262,6 +267,7 @@ exports[`TextArea should accept disabled 1`] = `
 
 .c0 textarea {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   min-height: 6.25rem;
   background: #FFFFFF;
   border: 1px solid #DEE1E5;
@@ -304,6 +310,7 @@ exports[`TextArea should accept disabled 1`] = `
 exports[`TextArea with an error validation 1`] = `
 .c2 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   width: 20px;
   height: 20px;
   display: -webkit-inline-box;
@@ -353,6 +360,7 @@ exports[`TextArea with an error validation 1`] = `
 
 .c0 textarea {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   min-height: 6.25rem;
   background: #FFFFFF;
   border: 1px solid #DEE1E5;
@@ -430,6 +438,7 @@ exports[`TextArea with placeholder 1`] = `
 
 .c0 textarea {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   min-height: 6.25rem;
   background: #FFFFFF;
   border: 1px solid #DEE1E5;

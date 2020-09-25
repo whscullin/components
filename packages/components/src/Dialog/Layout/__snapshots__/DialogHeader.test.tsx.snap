@@ -3,6 +3,7 @@
 exports[`DialogHeader Snapshot 1`] = `
 .c7 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   width: 22px;
   height: 22px;
   display: -webkit-inline-box;
@@ -25,6 +26,7 @@ exports[`DialogHeader Snapshot 1`] = `
 
 .c3 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   width: 28px;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -69,6 +71,7 @@ exports[`DialogHeader Snapshot 1`] = `
 
 .c1 {
   font-family: 'Red Hat Display','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.5rem;
@@ -90,6 +93,7 @@ exports[`DialogHeader Snapshot 1`] = `
 
 .c5 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   background: none;
   border: none;
   color: #959a9d;
@@ -117,6 +121,7 @@ exports[`DialogHeader Snapshot 1`] = `
 
 .c0 {
   font-family: 'Roboto','Noto Sans JP','Noto Sans CJK KR','Noto Sans Arabic UI','Noto Sans Devanagari UI','Noto Sans Hebrew','Noto Sans Thai UI','Helvetica','Arial',sans-serif;
+  color: #262D33;
   padding: 1.25rem;
   padding-right: 2rem;
   padding-left: 2rem;
