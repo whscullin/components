@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [UNRELEASED]
 
+
+### Added
+
+- `Truncate` component
 - `TabList` now supports `PaddingProps` and `fontSize`
 - `TabList` w/ `distribute` now uses default "small" `fontSize`
 
@@ -20,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- `TreeItem` now supports text truncation behavior
 - `AccordionDisclosure` "indicator" now matches color of container rather than preserving it's initial color
 - Storybook configuration improvements
   - `addons-essentials` now used

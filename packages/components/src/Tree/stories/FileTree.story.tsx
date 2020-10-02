@@ -68,6 +68,3 @@ export const FileTree = Template.bind({})
 FileTree.args = {
   defaultOpen: true,
 }
-
-export const FileTreeClosed = Template.bind({})
-FileTreeClosed.args = {}

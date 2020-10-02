@@ -35,6 +35,7 @@ import {
   AccordionProps,
   AccordionIndicatorProps,
 } from '../Accordion'
+import { IconButton } from '../Button'
 import { IconNames } from '../Icon'
 import { useHovered } from '../utils/useHovered'
 import { undefinedCoalesce } from '../utils'
@@ -78,6 +79,10 @@ export interface TreeProps extends AccordionProps {
    * @default false
    */
   visuallyAsBranch?: boolean
+  /**
+   * Prevent text wrapping on long labels and instead render truncated text
+   **/
+  truncate?: boolean
 }
 
 const indicatorProps: AccordionIndicatorProps = {
@@ -99,6 +104,7 @@ const TreeLayout: FC<TreeProps> = ({
   label,
   className,
   visuallyAsBranch,
+  truncate,
   ...restProps
 }) => {
   const disclosureRef = useRef<HTMLDivElement>(null)
@@ -123,6 +129,7 @@ const TreeLayout: FC<TreeProps> = ({
       detailAccessory={hasDetailAccessory}
       detailHoverDisclosure={hasDetailHoverDisclosure}
       icon={icon}
+      truncate={truncate}
     >
       {label}
     </TreeItemInner>
@@ -130,7 +137,9 @@ const TreeLayout: FC<TreeProps> = ({
 
   const innerAccordion = (
     <Accordion {...indicatorProps} {...restProps}>
-      <AccordionDisclosure ref={disclosureRef}>{treeItem}</AccordionDisclosure>
+      <AccordionDisclosure ref={disclosureRef} py="none">
+        {treeItem}
+      </AccordionDisclosure>
       <AccordionContent>{children}</AccordionContent>
     </Accordion>
   )
@@ -216,8 +225,6 @@ export const TreeStyle = styled.div<TreeStyleProps>`
       background-color: ${({ hovered }) => hovered && uiTransparencyBlend(2)};
       font-weight: ${({ visuallyAsBranch, theme: { fontWeights } }) =>
         visuallyAsBranch ? fontWeights.normal : fontWeights.semiBold};
-      height: 25px;
-      padding: ${({ theme }) => theme.space.xxsmall};
       ${({ depth, theme }) => generateIndent(depth, theme)}
     }
   }
@@ -228,7 +235,7 @@ export const TreeStyle = styled.div<TreeStyleProps>`
 
     & > ${TreeItemLabel} {
       background-color: transparent;
-      padding: ${({ theme }) => theme.space.none};
+      padding-left: ${({ theme }) => theme.space.none};
     }
   }
 
@@ -236,6 +243,13 @@ export const TreeStyle = styled.div<TreeStyleProps>`
   ${TreeItemLabel},
   & > ${Accordion} > ${AccordionContent} > ${TreeItem} > ${TreeItemLabel} {
     ${({ depth, theme }) => generateIndent(depth + 1, theme)}
+  }
+
+  ${TreeItemLabel} {
+    ${IconButton} {
+      max-height: ${({ theme }) => theme.lineHeights.xsmall};
+      overflow: visible;
+    }
   }
 `
 

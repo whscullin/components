@@ -26,6 +26,7 @@
 
 import React, { useState } from 'react'
 import {
+  Box,
   ButtonTransparent,
   HoverDisclosure,
   IconButton,
@@ -38,6 +39,7 @@ import {
   usePopover,
 } from '../..'
 import { TreeItem, Tree, TreeGroup } from '..'
+import { Truncate } from '../../Text/Truncate'
 
 const PickerItem = () => {
   const [overlay, setOverlay] = useState<string | undefined>(undefined)
@@ -69,9 +71,12 @@ const PickerItem = () => {
     />
   )
 
+  const itemTitle =
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+
   const itemLabel = (
     <Space between>
-      <span>Cost</span>
+      <Truncate>{itemTitle}</Truncate>
       {!overlay ? <HoverDisclosure>{pivot}</HoverDisclosure> : pivot}
     </Space>
   )
@@ -126,6 +131,7 @@ const PickerItem = () => {
 const addButton = (
   <ButtonTransparent
     size="xxsmall"
+    mt="xxxsmall"
     iconBefore="Plus"
     onClick={() => alert('Hello Mouse')}
     onKeyDown={(event) => {
@@ -140,23 +146,25 @@ const addButton = (
 )
 
 export const FieldPicker = () => (
-  <Tree defaultOpen detailAccessory detail={addButton} label="Custom Fields">
-    <TreeGroup label="DIMENSIONS">
-      <PickerItem />
-      <PickerItem />
-      <PickerItem />
-      <PickerItem />
-    </TreeGroup>
-    <TreeGroup label="MEASURES" color="keyFocus">
-      <Tree visuallyAsBranch label="Hello">
+  <Box maxWidth="320px">
+    <Tree defaultOpen detailAccessory detail={addButton} label="Custom Fields">
+      <TreeGroup label="DIMENSIONS">
         <PickerItem />
-      </Tree>
-      <TreeItem color="orange" icon="FieldString">
-        Name
-      </TreeItem>
-      <PickerItem />
-      <PickerItem />
-      <PickerItem />
-    </TreeGroup>
-  </Tree>
+        <PickerItem />
+        <PickerItem />
+        <PickerItem />
+      </TreeGroup>
+      <TreeGroup label="MEASURES" color="keyFocus">
+        <Tree visuallyAsBranch label="Hello">
+          <PickerItem />
+        </Tree>
+        <TreeItem color="orange" icon="FieldString">
+          Name
+        </TreeItem>
+        <PickerItem />
+        <PickerItem />
+        <PickerItem />
+      </TreeGroup>
+    </Tree>
+  </Box>
 )
