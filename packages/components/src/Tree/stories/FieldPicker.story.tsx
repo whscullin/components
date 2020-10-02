@@ -146,7 +146,7 @@ const addButton = (
 )
 
 export const FieldPicker = () => (
-  <Box maxWidth="320px">
+  <Box maxWidth="320px" borderRight="1px solid" borderColor="ui2">
     <Tree defaultOpen detailAccessory detail={addButton} label="Custom Fields">
       <TreeGroup label="DIMENSIONS">
         <PickerItem />
