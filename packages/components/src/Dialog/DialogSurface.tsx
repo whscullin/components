@@ -114,7 +114,7 @@ const placements = {
 }
 
 export const DialogSurface = styled(SurfaceBase)<DialogSurfaceProps>`
-  box-shadow: ${({ theme }) => theme.shadows[5]};
+  box-shadow: ${({ theme }) => theme.shadows[3]};
   position: relative;
   transition: transform ${surfaceTransition}, opacity ${surfaceTransition};
 

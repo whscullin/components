@@ -27,10 +27,9 @@
 import { Shadows } from '../system'
 
 export const shadows: Shadows = {
-  1: '0px 1px 8px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.05)',
-  2: '0 2px 12px rgba(0, 0, 0, 0.11), 0 1px 4px rgba(0, 0, 0, 0.04)',
-  3: '0 3px 18px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.04)',
-  4: '0 4px 20px rgba(0, 0, 0, 0.14), 0 1px 4px rgba(0, 0, 0, 0.04),  0 10px 8px 4px rgba(0, 0, 0, 0.01)',
-  5: '0 2px 30px rgba(0, 0, 0,.16), 0 1px 4px rgba(0, 0, 0, 0.04),  0 14px 10px 8px rgba(0, 0, 0, 0.02)',
-  6: '0 5px 42px 0px rgba(0, 0, 0,.18),  0 1px 4px rgba(0, 0, 0, 0.05), 0 16px 20px 10px rgba(0, 0, 0, 0.025)',
+  1: '0px 1px 2px 0px rgba(60, 64, 67, .30),0px 1px 3px 1px rgba(60, 64, 67, .15)',
+  2: '0px 1px 2px 0px rgba(60, 64, 67, .30),0px 2px 6px 2px rgba(60, 64, 67, .15)',
+  3: '0px 1px 3px 0px rgba(60, 64, 67, .30),0px 4px 8px 3px rgba(60, 64, 67, .15)',
+  4: '0px 2px 3px 0px rgba(60, 64, 67, .30),0px 6px 10px 4px rgba(60, 64, 67, .15)',
+  5: '0px 4px 4px 0px rgba(60, 64, 67, .30),0px 8px 12px 6px rgba(60, 64, 67, .15)',
 }

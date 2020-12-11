@@ -52,29 +52,21 @@ const raised = (props: CardProps) =>
   props.raised &&
   css`
     box-shadow: ${(props) => props.theme.shadows[1]};
-
-    &:hover {
-      box-shadow: ${(props) => props.theme.shadows[2]};
-    }
   `
 
 export const Card = styled.div.withConfig({ shouldForwardProp })<CardProps>`
   ${complexLayoutCSS}
   ${flexbox}
 
+  border: ${(props) =>
+    props.raised ? 'none' : `solid 1px ${props.theme.colors.ui3}`};
   transition: border ${cardTransition}, box-shadow ${cardTransition};
-
-  &:hover {
-    border-color: ${(props) => props.theme.colors.ui4};
-  }
 
   ${raised}
 `
 
 Card.defaultProps = {
   bg: 'background',
-  border: '1px solid',
-  borderColor: 'ui3',
   borderRadius: 'medium',
   display: 'flex',
   flexDirection: 'column',

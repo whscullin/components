@@ -109,9 +109,8 @@ export const OverlaySurface = styled(OverlaySurfaceLayout)`
 
 export const OverlaySurfaceContentArea = styled.div`
   background: ${({ theme }) => theme.colors.background};
-  border: 1px solid ${({ theme }) => theme.colors.ui2};
   border-radius: ${({ theme }) => theme.radii.medium};
-  box-shadow: ${({ theme }) => theme.shadows[3]};
+  box-shadow: ${({ theme }) => theme.shadows[2]};
   color: ${({ theme }) => theme.colors.text};
 
   &:focus {
